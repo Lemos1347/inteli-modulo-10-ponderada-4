@@ -1,0 +1,4 @@
+192.168.65.1 - - [15/Jun/2024:04:28:15 +0000] "GET /fastapi/docs HTTP/1.1" 200 955 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+192.168.65.1 - - [15/Jun/2024:04:28:15 +0000] "GET /fastapi/openapi.json HTTP/1.1" 200 5898 "http://localhost:3000/fastapi/docs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+192.168.65.1 - - [15/Jun/2024:04:40:50 +0000] "GET /fastapi/usuarios/1 HTTP/1.1" 200 150 "http://localhost:3000/fastapi/docs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+192.168.65.1 - - [15/Jun/2024:04:42:35 +0000] "GET /fastapi/usuarios/1 HTTP/1.1" 200 150 "http://localhost:3000/fastapi/docs" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"

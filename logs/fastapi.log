@@ -1,0 +1,1 @@
+{"time": "2024-06-15 04:42:35,776", "name": "routers.usuarios", "level": "INFO", "message": "{'message': 'Acessando a rota /usuarios/{usuario_id}', 'usuario_id': 1, 'method': 'GET'}"}
