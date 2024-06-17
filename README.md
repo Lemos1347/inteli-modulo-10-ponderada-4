@@ -6,12 +6,12 @@ Este projeto consiste em uma aplicação que envolve múltiplos serviços, inclu
 
 A estrutura do projeto é composta pelos seguintes serviços:
 
-    1.	[backend-python](./backend-python/): Aplicação Python que fornece um CRUD para produtos e usuários.
-    2.	[backend-golang](./backend-golang/): Aplicação Golang que fornece uma API com CRUD e documentação Swagger.
-    3.	[filebeat](./filebeat/): Serviço que coleta e envia logs para o Elasticsearch.
-    4.	[elasticsearch](./elasticsearch/): Serviço de busca e análise de logs.
-    5.	[kibana](./kibana/): Interface gráfica para visualizar os logs coletados pelo Elasticsearch.
-    6.	[gateway](./gateway/): Serviço de gateway que gerencia o tráfego entre os serviços backend.
+1. [backend-python](./backend-python/): Aplicação Python que fornece um CRUD para produtos e usuários.
+2. [backend-golang](./backend-golang/): Aplicação Golang que fornece uma API com CRUD e documentação Swagger.
+3. [filebeat](./filebeat/): Serviço que coleta e envia logs para o Elasticsearch.
+4. [elasticsearch](./elasticsearch/): Serviço de busca e análise de logs.
+5. [kibana](./kibana/): Interface gráfica para visualizar os logs coletados pelo Elasticsearch.
+6. [gateway](./gateway/): Serviço de gateway que gerencia o tráfego entre os serviços backend.
 
 > [!NOTE]
 > Todos os serviços (gateway, backend-python e backend-golang) estão configurados para enviarem logs para os arquivos que podem ser encontrados na pasta [logs](./logs/).
