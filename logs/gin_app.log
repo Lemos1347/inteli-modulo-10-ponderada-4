@@ -1,3 +1,10 @@
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
 [GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
 [GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
 [GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
@@ -7,39 +14,7 @@
 [GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
 Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
 [GIN-debug] Listening and serving HTTP on :8080
-[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
-[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
-[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
-[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
-[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
-[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
-[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
-Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
-[GIN-debug] Listening and serving HTTP on :8080
-[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
-[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
-[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
-[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
-[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
-[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
-[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
-Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
-[GIN-debug] Listening and serving HTTP on :8080
-[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
-[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
-[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
-[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
-[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
-[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
-[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
-Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
-[GIN-debug] Listening and serving HTTP on :8080
-[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
-[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
-[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
-[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
-[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
-[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
-[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
-Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
-[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/17 - 02:50:24 | 200 |    1.796584ms |      172.28.0.6 | GET      "/gin-gonic/api/v1/users"
+[GIN] 2024/06/17 - 02:50:43 | 201 |    6.887417ms |      172.28.0.6 | POST     "/gin-gonic/api/v1/users"
+[GIN] 2024/06/17 - 02:50:50 | 200 |    1.154917ms |      172.28.0.6 | GET      "/gin-gonic/api/v1/users/10"
+[GIN] 2024/06/17 - 02:50:56 | 200 |    7.359833ms |      172.28.0.6 | DELETE   "/gin-gonic/api/v1/users/10"

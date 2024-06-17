@@ -49,16 +49,16 @@ func main() {
 	// Migrate the schema
 	// db.AutoMigrate(&User{})
 
-	r := gin.Default()
-
-	router := r.Group("/gin-gonic")
-
 	// Create log file
 	f, err := os.OpenFile("/logs/gin_app.log", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
 	gin.DefaultWriter = f
+
+	r := gin.Default()
+
+	router := r.Group("/gin-gonic")
 
 	// Middleware to log requests
 	r.Use(gin.LoggerWithWriter(f))

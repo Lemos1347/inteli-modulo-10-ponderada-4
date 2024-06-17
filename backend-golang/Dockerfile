@@ -1,11 +1,12 @@
 # Etapa de build
-FROM golang:1.22.1 AS builder
+FROM golang:1.22.4 AS builder
 
 WORKDIR /app
 
 # Copie os arquivos go.mod e go.sum e baixe as dependências
 COPY . ./
 RUN go mod tidy
+RUN go get github.com/go-playground/validator/v10@v10.20.0
 
 # Copie o código fonte
 COPY . .
