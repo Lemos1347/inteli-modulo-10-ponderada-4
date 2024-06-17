@@ -28,6 +28,15 @@ filebeat.inputs:
     scan_frequency: 1s
     enabled: true
     paths:
+      - /src/logs/gin_app.log
+    fields:
+      service: gin-gonic
+    fields_under_root: true
+
+  - type: log
+    scan_frequency: 1s
+    enabled: true
+    paths:
       - /src/logs/nginx/*
     fields:
       service: nginx

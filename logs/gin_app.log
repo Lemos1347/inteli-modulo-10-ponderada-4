@@ -1,0 +1,45 @@
+[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
+[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
+[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
+[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
+[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
+[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
+[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
+[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
+[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
+[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
+[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
+[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
+[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
+[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
+[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
+[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
+[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
+[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
+[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
+[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
+[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] GET    /gin-gonic/api/v1/users   --> main.getUsers (3 handlers)
+[GIN-debug] GET    /gin-gonic/api/v1/users/:id --> main.getUserByID (3 handlers)
+[GIN-debug] POST   /gin-gonic/api/v1/users   --> main.createUser (3 handlers)
+[GIN-debug] PUT    /gin-gonic/api/v1/users/:id --> main.updateUser (3 handlers)
+[GIN-debug] DELETE /gin-gonic/api/v1/users/:id --> main.deleteUser (3 handlers)
+[GIN-debug] GET    /gin-gonic/swagger/*any   --> github.com/swaggo/gin-swagger.CustomWrapHandler.func1 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080

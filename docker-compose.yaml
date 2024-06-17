@@ -1,13 +1,23 @@
 version: "3.8"
 
 services:
-  backend:
-    build: ./backend/
+  backend-python:
+    build: ./backend-python/
     ports:
       - "8000:8000"
-    container_name: backend
+    container_name: backend-python
     volumes:
       - ./logs:/app/logs
+      - sqlite_data:/app
+
+  backend-golang:
+    build: ./backend-golang/
+    ports:
+      - "8080:8080"
+    container_name: backend-golang
+    volumes:
+      - ./logs:/logs
+      - sqlite_data:/app/data
 
   filebeat:
     build: ./filebeat/
@@ -15,7 +25,8 @@ services:
     volumes:
       - ./logs:/src/logs
     depends_on:
-      - backend
+      - backend-python
+      - backend-golang
       - elasticsearch
       - kibana
     network_mode: "host"
@@ -40,11 +51,19 @@ services:
     ports:
       - "3000:80"
     depends_on:
-      - backend
+      - backend-python
+      - backend-golang
     volumes:
       - ./logs/nginx:/var/log/nginx
 
 volumes:
   elasticsearch_data:
     driver: local
+
+  sqlite_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/backend-python/
 
