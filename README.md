@@ -26,6 +26,8 @@ Rotas disponíveis:
 
 Logs:
 
+<img width="2056" alt="Captura de Tela 2024-06-16 às 23 52 25" src="https://github.com/Lemos1347/inteli-modulo-10-ponderada-4/assets/99190347/ef856255-95e7-49ba-bf69-2af66fcd83e3">
+
 ### [Backend-golang](./backend-golang/)
 
 Esse é um serviço em Golang que fornece um CRUD usuários com um sqlite. Ele é executado na porta 8080. Para acessar a documentação da API, acesse a rota `gin-gonic/swagger/index.html`.
@@ -36,6 +38,7 @@ Rotas disponíveis:
 
 Logs:
 
+<img width="2049" alt="Captura de Tela 2024-06-16 às 23 51 42" src="https://github.com/Lemos1347/inteli-modulo-10-ponderada-4/assets/99190347/d60a1f23-2d91-4e2c-922b-5dbebd87f765">
 
 ### [Gateway](./gateway/)
 
