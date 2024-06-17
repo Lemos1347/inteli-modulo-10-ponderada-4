@@ -15,7 +15,6 @@ A estrutura do projeto é composta pelos seguintes serviços:
 
 > [!NOTE]
 > Todos os serviços (gateway, backend-python e backend-golang) estão configurados para enviarem logs para os arquivos que podem ser encontrados na pasta [logs](./logs/).
-> ß
 
 ### [Backend-python](./backend-python/)
 
