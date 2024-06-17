@@ -22,11 +22,15 @@ Esse é um serviço em Python que fornece um CRUD para produtos e usuários com 
 
 Rotas disponíveis:
 
+<img width="2056" alt="Captura de Tela 2024-06-16 às 23 21 53" src="https://github.com/Lemos1347/inteli-modulo-10-ponderada-4/assets/99190347/2ab048ae-bdc9-4c5e-a4ca-d6acced27565">
+
 ### [Backend-golang](./backend-golang/)
 
 Esse é um serviço em Golang que fornece um CRUD usuários com um sqlite. Ele é executado na porta 8080. Para acessar a documentação da API, acesse a rota `gin-gonic/swagger/index.html`.
 
 Rotas disponíveis:
+
+<img width="2053" alt="Captura de Tela 2024-06-16 às 23 23 32" src="https://github.com/Lemos1347/inteli-modulo-10-ponderada-4/assets/99190347/79fbd06d-ee68-4fb2-b54a-0f0b19d5a304">
 
 ### [Gateway](./gateway/)
 
@@ -45,6 +49,8 @@ Armazena e indexa os logs coletados pelo Filebeat. Fornece funcionalidades de bu
 Interface gráfica para visualização e análise dos logs armazenados no Elasticsearch.
 
 ## Funcionamento
+
+https://github.com/Lemos1347/inteli-modulo-10-ponderada-4/assets/99190347/94b45dab-f7ac-4517-aa7f-578f3f925baf
 
 ## Como executar
 
